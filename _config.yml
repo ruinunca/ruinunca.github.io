@@ -190,8 +190,9 @@ plugins:
 # Sitemap settings
 defaults:
   - scope:
-      path: "assets"
+      path: ""
     values:
+      robots: noindex, nofollow
       sitemap: false
 
 sass:
